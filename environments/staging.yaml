@@ -3,3 +3,6 @@ env:
 envSecrets:
   APP_SECRET: test-vinceta
 replicaCount: 2
+volumeSecrets:
+  - name: my-secrets-vt-file
+    path: /etc/secrets
